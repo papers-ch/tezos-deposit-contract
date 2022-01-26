@@ -1,4 +1,4 @@
-# Depost Contracts
+# Deposit Contracts
 
 The deposit contract allows funds to be forwarded to a pool adress while still allowing an individual adress per user.
 
@@ -53,7 +53,7 @@ For deployment and CLI you will have to adapt settings.py the following way:
 
 ```
 # settings.py example
-POOL_ADDRESS = "tz1N5tn67kgiXRKSVmpmjzdvffwQ9Xu1bt7G" # this is where the money will be forwarded too.
+POOL_ADDRESS = "tz1N5tn67kgiXRKSVmpmjzdvffwQ9Xu1bt7G" # this is where the funds will be forwarded too.
 DEPOSIT_MANAGER = "KT1GHBvGfhK211v5BdfFS1Rvkg4YGj3wrXEJ" # this is used for the CLI but will be blank if nothing is deployed yet.
 
 SHELL = "https://hangzhounet.smartpy.io/" # use a tezos node RPC
